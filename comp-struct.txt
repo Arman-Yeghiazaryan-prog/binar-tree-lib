@@ -1,0 +1,5 @@
+!!!Compilation structure!!!
+
+gcc -c bin-tree-lib.c -o bin-tree-lib.o
+gcc -c bin-tree-test.c -o bin-tree-test.o
+gcc bin-tree-lib.o bin-tree-test.o -o bin-tree-test
